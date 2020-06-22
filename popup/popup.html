@@ -2,19 +2,75 @@
 <html>
   <head>
     <style>
-
     </style>
   </head>
   <body>  
-    <div class="ui toggle checkbox" >
-      <input type="checkbox" name="public" id="listenAct">
-      <label>Activate Helper</label>
-    </div> 
-  </body>
 
+    <div class="container-fluid" id="header"> 
+      <div class="row justify-content-around">
+        <div class="col-4">
+          <img src="/images/Logo.jpg" alt="Logo" width="75" height="75">
+        </div>
+          
+        <div class="col-8" id="color-header">
+          </div>
+      </div>
+    </div>
+    
+  
+    <div class="container-fluid" id="inner-body">
+      <div class="row justify-content-center" id="activation">
+        <div class="col-8">
+          <input id="switch1" type="checkbox" class="actvEl"/>
+        </div>
+      </div>
+      <div class="dropdown-divider"></div>
+      <div class="row justify-content-center" id="followNum"> 
+        <div class="col-8">
+            Follow People : All
+        </div>
+      </div>
+      <div class="dropdown-divider"></div>
+      <div class="row justify-content-center" id="likeComNum"> 
+        <div class="col-8">
+            Like Comment : 
+        </div>
+      </div>
+      <div class="dropdown-divider"></div>
+      <div class="row justify-content-center" id="settings"> 
+        <div class="col-8">
+            Settings
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="container-fluid" id="footer">
+      <div class="row justify-content-between"> 
+        <div class="col" id="footer-start">
+          2020
+        </div>
+        <div class="col" id="footer-end">
+          InstaTouchApp
+        </div>
+      </div>
+    </div>
+
+
+  </body>  
+     
+  <link rel="stylesheet"  href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet"  href="/lib/bootstrap-4.5.0-dist/css/bootstrap4.css">
+  <link rel="stylesheet"  href="/lib/e2js/css/Base/material.css">
+  <link rel="stylesheet"  href="/lib/e2js/css/Button/material.css">
+  <link rel="stylesheet"  href="/popup/activate-button.css">
   <link rel="stylesheet" type="text/css" href="/lib/semantic/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/popup/popup.css">
   <script src="/lib/jquery/jquery-3.4.1.min.js"></script>
+  <script src="/lib/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
   <script src="/lib/semantic/semantic.min.js"></script> 
+  <script src="/lib/e2js/js/ej2-base.min.js"></script>
+  <script src="/lib/e2js/js/ej2-buttons.min.js"></script>
   <script src="popup.js"></script>
 </html>
 

@@ -1,0 +1,48 @@
+body,html{
+    max-height: 75%;
+}
+
+body,html h3{
+    font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif";
+}
+
+  
+#header{
+    padding-top: 2.5%;
+    background-color: white;
+}
+
+#inner-body{
+    background-color: white;
+}
+
+#activation,#followNum,#likeComNum,#settings{
+
+    text-align: center;
+}
+
+#color-header{
+    border-radius: 5px;
+    max-height: 12.5px;
+    max-width: 150px;
+    margin-top: 10%;
+    background-color: red;
+}
+
+.dropdown-divider{
+    border-color:rgba(216, 208, 208, 0.692);
+    padding-top: 2.5%;
+}
+
+#footer{
+    padding-top: 5%;
+    background-color: #f2f2f2;
+}
+
+#footer-start{
+    text-align: start;
+}
+
+#footer-end{
+    text-align: end;
+}

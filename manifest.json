@@ -8,8 +8,6 @@
     "declarativeContent",
     "storage",
     "tabs",
-    "http://*/",
-    "https://*/",
     "https://www.instagram.com/*"
   ],
 
